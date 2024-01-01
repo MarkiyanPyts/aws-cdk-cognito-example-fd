@@ -12,7 +12,7 @@ export default  function LoggedInMenu() {
 
   return (
     <div>
-        <p>Logged in as {user.userId}</p>
+       <p>Logged in as {user.userId}</p>
       <button onClick={signOut}>Sign Out</button>
     </div>
   );

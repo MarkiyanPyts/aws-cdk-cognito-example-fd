@@ -29,7 +29,6 @@ export default function RootLayout({
       </AuthWrapper>
         
       </body>
-      
     </html>
   )
 }

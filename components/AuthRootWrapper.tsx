@@ -13,14 +13,11 @@ Amplify.configure({
       Cognito: {
         userPoolClientId: process.env.NEXT_PUBLIC_USER_POOL_CLIENT_ID || '',
         userPoolId: process.env.NEXT_PUBLIC_USER_POOL_ID || '',
-        //region: process.env.REGION || '',
       },
     }
 });
 
 export default function AuthWrapper({ children }: Props) {
-  
-
   return (
       <Authenticator>
         {children}
